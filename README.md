@@ -42,3 +42,12 @@ para ignorar os arquivos usar .gitignore
 vim .gitignore
 #dica: estudar uso do vim
 ```
+para ver os ultimos commits
+```
+git log
+```
+para ver as alterações do ultimo commit
+```
+git show
+```
+
