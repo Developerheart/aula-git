@@ -50,4 +50,14 @@ para ver as alterações do ultimo commit
 ```
 git show
 ```
-
+para criar chave ssh
+```
+ssh-keygen -t rsa -b 4096 -C "example@gmail.com"
+```
+para identificar o local onde foi salvo procure no log gerado o seguinte trecho
+<b>Your public key has been saved in</b> ... <br/>
+para visualizar a chave use o cat, por exemplo:
+```
+cat /c/Users/sefaz/.ssh/id_rsa.pub
+```
+Insira essa chave no ssh do github e use as instruções de inicialização de repositorio do github, conforme a sua necessida, descritas no diretorio do projeto recem criado.
