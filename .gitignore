@@ -1,0 +1,4 @@
+#Ignorar arquivos no git
+.idea/
+*.iml
+out/
